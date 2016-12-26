@@ -13,7 +13,9 @@
 	<property name="hbm2ddl.auto">update</property>
 
 	<!-- 声明映射文件 -->
-	<mapping resource="cn/itcast/oa/domain/User.hbm.xml" />
+	<mapping resource="cn/itcast/domain/Role.hbm.xml" />
+	<mapping resource="cn/itcast/domain/Department.hbm.xml" />
+	<mapping resource="cn/itcast/domain/User.hbm.xml" />
 
 </session-factory>
 </hibernate-configuration>
